@@ -1,16 +1,19 @@
 import React from 'react'
-import circle from '../assets/circle.png'
+import blogs from '../assets/blogs.png'
+import edues from '../assets/edues.png'
+import shopee from '../assets/shopee.png'
+import texutilitie from '../assets/texutilitie.png'
 import ProjectCard from './ProjectCard'
 
 const Projects = () => {
   return (
-    <div name='Projects' className='w-full md:h-screen bg-[#0a192f] text-gray-300'>
+    <div name='projects' className='w-full md:h-screen bg-[#0a192f] text-gray-300'>
         <div className='max-w-[1000px] w-full h-full mx-auto flex flex-col justify-center p-4'>
-            <div className='pb-8'>
+            <div className=''>
                 <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
                 Projects
                 </p>
-                <p className='py-6'>
+                <p className='py-3'>
                     check out my recent work
                 </p>
             </div>
@@ -19,12 +22,10 @@ const Projects = () => {
 
                 {/* project cards */}
 
-                <ProjectCard name='project name' code='/' demo='' image={circle}/>
-                <ProjectCard name='project name' code='/' demo='' image={circle}/>
-                <ProjectCard name='project name' code='/' demo='' image={circle}/>
-                <ProjectCard name='project name' code='/' demo='' image={circle}/>
-                <ProjectCard name='project name' code='/' demo='' image={circle}/>
-
+                <ProjectCard name='Cartdone' code='https://github.com/coderaman21/Cartdone' demo='https://divyanshu21.pythonanywhere.com/' image={shopee}/>
+                <ProjectCard name='techies blogs' code='https://github.com/coderaman21/techies-blogs' demo='https://techies-blogs.onrender.com/' image={blogs}/>
+                <ProjectCard name='Textutilite.com' code='https://github.com/coderaman21/Textutils' demo='https://textutils-0tie.onrender.com/' image={texutilitie}/>
+                <ProjectCard name='Edues.in' code='https://github.com/coderaman21/Edues.in' demo='https://coderaman21.github.io/Edues.in/' image={edues}/>
             </div>
         </div>
     </div>

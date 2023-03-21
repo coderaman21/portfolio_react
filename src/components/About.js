@@ -14,15 +14,16 @@ const About = () => {
             </div>
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                 <div className='sm:text-right text-4xl font-bold'>
-                    <p>Hi, I'm Divyanshu , nice to meet you , Please take a look around.</p>
+                    <p>Hello, nice to meet you. Please take a look around.</p>
                 </div>
                 <div>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis nulla iste dolor
-                        provident quidem. Provident assumenda sapiente, omnis tempora inventore ipsa et nobis
-                        molestias porro quasi, recusandae tempore! Et maiores nihil eos sint, dignissimos deserunt
-                        exercitationem fugiat officia dicta corporis, autem nemo! Quod voluptatibus, ipsam, ducimus
-                        perspiciatis deserunt natus culpa modi dignissimos assumenda earum temporibus nostrum .
+                        Started carrer being a self-taught developer , With basic frontend and backend 
+                        skills. Gained good knowledge of skills over the time. Mainly worked as a backend developer
+                        and developed some live backend apps from scratch. Learned power of google ( when you stuck at something 😁).
+                        Did R&d's😤. Faced many real world problems while developing the apps and solved them logical thinking.
+                        Learned new tech stack to implement them in projects.<br/>
+                        Conistantly learning new stuffs (current react) to improve myself and my skils.
                     </p>
                 </div>
                 

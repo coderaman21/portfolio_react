@@ -1,0 +1,9 @@
+.myskills-body img {
+
+    border-radius: 50%;
+    transition: all .5s ease-in ;
+    box-shadow: 2px 2px 3px #ffffff;
+}
+.myskills-body img:hover{
+    box-shadow: -3px 0px 7px white,3px 0px 7px #ffffff ,white 0px 0px 7px;
+}
