@@ -1,12 +1,13 @@
 import React,{useState} from 'react'
 import {FaBars,FaTimes} from 'react-icons/fa';
 import {Link} from 'react-scroll';
+import '../css/contact.css'
 
 function Navbar() {
     const [nav,setNav] = useState(true);
     const handleClick = () => setNav(!nav);
   return (
-    <div name='navbar' className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div name='navbar' className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 pb-1'>
         {/* logo */}
         <div>
 
@@ -14,27 +15,27 @@ function Navbar() {
         {/* menu */}
         <div >
             <ul className='hidden md:flex'>
-                <li>
+                <li className='txt-hvr'>
                     <Link to="home"  smooth={true}  duration={500}>
                         Home
                     </Link>
                 </li>
-                <li>
+                <li className='txt-hvr'>
                     <Link  to="about" spy={true} smooth={true} duration={500} >
                         About
                     </Link>
                 </li>
-                <li>
+                <li className='txt-hvr'>
                     <Link  to="skills" spy={true} smooth={true} duration={500} >
                         Skills
                     </Link>
                 </li>
-                <li>
+                <li className='txt-hvr'>
                     <Link  to="projects" spy={true} smooth={true} duration={500} >
                         Projects
                     </Link>
                 </li>
-                <li>
+                <li className='txt-hvr'>
                     <Link  to="contact" spy={true} smooth={true} duration={500} >
                         Contact
                     </Link>
