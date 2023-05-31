@@ -23,8 +23,8 @@ const Projects = () => {
                 {/* project cards */}
 
                 <ProjectCard name='Cartdone' code='https://github.com/coderaman21/Cartdone' demo='https://divyanshu21.pythonanywhere.com/' image={shopee}/>
-                <ProjectCard name='techies blogs' code='https://github.com/coderaman21/techies-blogs' demo='https://techies-blogs.onrender.com/' image={blogs}/>
-                <ProjectCard name='Textutilite.com' code='https://github.com/coderaman21/Textutils' demo='https://textutils-0tie.onrender.com/' image={texutilitie}/>
+                <ProjectCard name='techies blogs' code='https://github.com/coderaman21/techies-blogs' demo='https://techies-blogs.vercel.app/' image={blogs}/>
+                <ProjectCard name='Textutilite.com' code='https://github.com/coderaman21/Textutils' demo='https://textutils-five-wine.vercel.app/' image={texutilitie}/>
                 <ProjectCard name='Edues.in' code='https://github.com/coderaman21/Edues.in' demo='https://coderaman21.github.io/Edues.in/' image={edues}/>
             </div>
         </div>
