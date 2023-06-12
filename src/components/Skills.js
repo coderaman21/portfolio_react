@@ -6,6 +6,7 @@ import html from '../Icons/icons8-html.png'
 import python from '../Icons/icons8-python.png'
 import sql from '../Icons/icons8-sql.png'
 import javascript from '../Icons/icons8-javascript.png'
+import react from '../Icons/icons8-react.png'
 
 import SkillsCard from './SkillsCard';
 import '../css/skills.css'
@@ -26,6 +27,7 @@ const Skills = () => {
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 myskills-body'>
                 <SkillsCard name='python' alt='python icon' image={python} />
                 <SkillsCard name='django' alt='django icon' image={django} />
+                <SkillsCard name='react' alt='react icon' image={react} />
                 <SkillsCard name='html' alt='html icon' image={html} />
                 <SkillsCard name='css' alt='css icon' image={css} />
                 <SkillsCard name='javascript' alt='javascript icon' image={javascript} />
