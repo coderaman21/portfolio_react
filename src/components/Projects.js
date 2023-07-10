@@ -12,7 +12,7 @@ const Projects = () => {
     let blogsSummary = 'Django blog application with CRUD opertions using class based viwes. sign in or signup ,view profile , create post ,view post and many more.. '
     let utilSummary = 'Perform diffrent action on your text such as character count, newline remover, extra-space remover etc. written in python-django.'
     let eduesSummary = 'A static responsive web-site using html,css and javascript. '
-    let jamNotesSummary = 'A FullStack website to create notes , with React as Frontend and Django as Backend . user login feature to be added soon..'
+    let jamNotesSummary = 'A FullStack website to create notes , with React as Frontend and Django as Backend . login to your account or signup for one. Create,Read,Update,Delete notes. '
     
     return (
     <div name='projects' className='w-full  bg-[#0a192f] text-gray-300'>
