@@ -4,7 +4,7 @@ import {Link} from 'react-scroll';
 
 const Home = () => {
   return (
-    <div name='home' className='bg-[#0a192f] w-full h-screen'>
+    <div name='home' className='bg-[#00040f] w-full h-screen'>
       
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-pink-600'>Hello , myself</p>

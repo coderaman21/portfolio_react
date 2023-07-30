@@ -4,7 +4,7 @@ import css from '../Icons/icons8-css3.png'
 import django from '../Icons/icons8-django.png'
 import html from '../Icons/icons8-html.png'
 import python from '../Icons/icons8-python.png'
-import sql from '../Icons/icons8-sql.png'
+import postgresql from '../Icons/postgresql.png'
 import javascript from '../Icons/icons8-javascript.png'
 import react from '../Icons/icons8-react.png'
 
@@ -13,7 +13,7 @@ import '../css/skills.css'
 
 const Skills = () => {
   return (
-    <div className='w-full h-screen bg-[#0a192f] text-gray-300' name='skills'>
+    <div className='w-full h-screen bg-[#00040f] text-gray-300' name='skills'>
         <div className='max-w-[1000px] mx-auto  p-4 flex flex-col justify-center w-full h-full'>
             <div>
                 <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
@@ -31,7 +31,7 @@ const Skills = () => {
                 <SkillsCard name='html' alt='html icon' image={html} />
                 <SkillsCard name='css' alt='css icon' image={css} />
                 <SkillsCard name='javascript' alt='javascript icon' image={javascript} />
-                <SkillsCard name='sql' alt='sql icon' image={sql} />
+                <SkillsCard name='PostgreSQL' alt='postgresql icon' image={postgresql} />
                 <SkillsCard name='c' alt='c icon' image={c} />
             </div>
 

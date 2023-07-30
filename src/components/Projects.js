@@ -15,7 +15,7 @@ const Projects = () => {
     let jamNotesSummary = 'A FullStack website to create notes , with React as Frontend and Django as Backend . login to your account or signup for one. Create,Read,Update,Delete notes. '
     
     return (
-    <div name='projects' className='w-full  bg-[#0a192f] text-gray-300'>
+    <div name='projects' className='w-full  bg-[#00040f] text-gray-300'>
         <div className='max-w-[1000px] w-full h-full mx-auto flex flex-col justify-center p-4'>
             <div className=''>
                 <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
@@ -30,7 +30,7 @@ const Projects = () => {
 
                 {/* project cards */}
 
-                <ProjectCard name='Jam Notes' code='https://github.com/coderaman21/jam-notes-FE' demo='https://jam-notes.netlify.app/' image={jamnotes} summary={jamNotesSummary}/>
+                <ProjectCard name='Jam Notes' code='https://github.com/coderaman21/jam-notes-BE' demo='https://jam-notes.netlify.app/' image={jamnotes} summary={jamNotesSummary}/>
                 <ProjectCard name='Cartdone' code='https://github.com/coderaman21/Cartdone' demo='https://divyanshu21.pythonanywhere.com/' image={shopee} summary={cartdoneSummary}/>
                 <ProjectCard name='Techies blogs' code='https://github.com/coderaman21/techies-blogs' demo='https://techies-blogs.vercel.app/' image={blogs}  summary={blogsSummary}/>
                 <ProjectCard name='Textutilite.com' code='https://github.com/coderaman21/Textutils' demo='https://textutils-five-wine.vercel.app/' image={texutilitie}  summary={utilSummary}/>
