@@ -1,14 +1,14 @@
 import React from 'react'
 import blogs from '../assets/blogs.png'
 import edues from '../assets/edues.png'
-import shopee from '../assets/shopee.png'
 import texutilitie from '../assets/texutilitie.png'
 import jamnotes from '../assets/jam_notes.png'
+import shoppingo from '../assets/shoppingo.png'
 import ProjectCard from './ProjectCard'
 import '../css/project.css'
 
 const Projects = () => {
-    let cartdoneSummary = "An E-commerce website made with python's djangoframework.View products,chechckout them and track them with your order id and emailaddress."
+    let shoppingoSummary = "A BackEnd only E-commerce web app made with python's django restframework. Explore the APIs by getting categories and their products, api to search products , create orders, get all products of user and many more."
     let blogsSummary = 'Django blog application with CRUD opertions using class based viwes. sign in or signup ,view profile , create post ,view post and many more.. '
     let utilSummary = 'Perform diffrent action on your text such as character count, newline remover, extra-space remover etc. written in python-django.'
     let eduesSummary = 'A static responsive web-site using html,css and javascript. '
@@ -30,8 +30,8 @@ const Projects = () => {
 
                 {/* project cards */}
 
+                <ProjectCard name='Shoppingo' code='https://github.com/coderaman21/Shoppingo_BE' demo='https://documenter.getpostman.com/view/18000926/2s9YJW5RP9' image={shoppingo} summary={shoppingoSummary}/>
                 <ProjectCard name='Jam Notes' code='https://github.com/coderaman21/jam-notes-BE' demo='https://jam-notes.netlify.app/' image={jamnotes} summary={jamNotesSummary}/>
-                <ProjectCard name='Cartdone' code='https://github.com/coderaman21/Cartdone' demo='https://divyanshu21.pythonanywhere.com/' image={shopee} summary={cartdoneSummary}/>
                 <ProjectCard name='Techies blogs' code='https://github.com/coderaman21/techies-blogs' demo='https://techies-blogs.vercel.app/' image={blogs}  summary={blogsSummary}/>
                 <ProjectCard name='Textutilite.com' code='https://github.com/coderaman21/Textutils' demo='https://textutils-five-wine.vercel.app/' image={texutilitie}  summary={utilSummary}/>
                 <ProjectCard name='Edues.in' code='https://github.com/coderaman21/Edues.in' demo='https://coderaman21.github.io/Edues.in/' image={edues}  summary={eduesSummary}/>
